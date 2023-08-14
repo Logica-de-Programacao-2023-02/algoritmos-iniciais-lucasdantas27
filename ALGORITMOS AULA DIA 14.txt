@@ -1,0 +1,121 @@
+Algoritmo de soma de dois números: um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números.
+1: leia X, Y 
+2: var soma = X+Y=Z
+3: escreva soma
+4. fim
+
+Algoritmo de conversão de temperatura: um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+1: leia temperatura em Celsius para Fahrenheit
+2: para cada temperatura escolhida em Celsius faça:
+2.1: Multiplique a temperatura em Celsius por 9/5
+2.2: Adicione 32 ao resultado do cálculo anterior.
+2.3: Resultado será a temperatura equivalente em Fahrenheit.
+3: escreva temperatura
+4: Se for convertido de Fahrenheit para Celsius faça:
+4.1: Subtraia 32 da temperatura em Fahrenheit.
+4.2: Multiplique o resultado do cálculo anterior por 5/9.
+4.3: O resultado será a temperatura equivalente em Celsius.
+5: escreva temperatura
+6: fim
+
+Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números.
+1: leia lista
+2: leia quantidade
+3: var soma = 0 
+4: para cada elemento da lista faça:
+4.1: soma = soma + elemento
+5: media = soma / quantidade
+6: escreve media
+7: fim
+
+Algoritmo de cálculo de fatorial: um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
+1: leia calculo fatorial
+2: var numero, contador, fatorial
+3: leia numero
+4: numero > 0
+5: fatorial = 1
+6: contador = 1
+7: fatorial = fatorial * contador
+8: escreva fatorial
+9:fim
+
+Algoritmo de busca linear: um algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo.
+1: leia lista
+2: leia elemento_busca
+3: var encontrado = falso
+4: var posicao = -1
+5: para cada índice de 0 até tamanho da lista menos 1 faça:
+5.1: se lista[indice] é igual a elemento_busca então
+5.1.1: encontrado = verdadeiro
+5.1.2: posicao = indice
+5.1.3: sair do loop
+6: se encontrado é verdadeiro então
+6.1: escreva "Elemento encontrado na posição", posicao
+6.2: senão
+6.2.1: escreva "Elemento não encontrado na lista"
+7: fim
+
+Algoritmo de cálculo de potência: um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
+1: leia base
+2: leia expoente
+3: var resultado = 1
+4: para cada i de 1 até expoente faça:
+4.1: resultado = resultado * base
+5: escreva "O resultado de", base, "elevado a", expoente, "é", resultado
+6: fim
+
+Algoritmo de verificação de número primo: um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
+1: leia numero
+2: se numero for menor ou igual a 1 então
+2.1: escreva "Não é um número primo"
+2.2: sair
+3: var divisor = 2
+4: var é_primo = verdadeiro
+5: enquanto divisor * divisor <= numero faça:
+5.1: se numero for divisível por divisor então
+5.1.1: define é_primo como falso
+5.1.2: sair do loop
+5.2: incrementa divisor em 1
+6: se é_primo for verdadeiro então
+6.1: escreva "É um número primo"
+6.2: senão
+6.2.1: escreva "Não é um número primo"
+7: fim
+
+Algoritmo de cálculo de área de um triângulo: um algoritmo que calcula a área de um triângulo com base na base e altura fornecidas.
+1: leia base
+2: leia altura
+3: var area = (base * altura) / 2
+4: escreva "A área do triângulo é:", area
+5: fim
+
+Algoritmo de cálculo de juros compostos: um algoritmo que calcula o montante de dinheiro após um período de tempo com juros compostos.
+1: leia principal (valor principal)
+2: leia taxa (taxa de juros anual em decimal)
+3: leia tempo (número de anos)
+4: leia frequencia (frequência de capitalização por ano)
+5: var montante = principal * (1 + taxa / frequencia) ^ (frequencia * tempo)
+6: escreva "O montante após", tempo, "anos é:", montante
+7: fim
+
+Algoritmo de cálculo de média ponderada: um algoritmo que calcula a média ponderada de uma lista de números com base nos pesos fornecidos.
+1: leia lista de números
+2: leia lista de pesos correspondentes aos números
+3: var soma_pesos = 0
+4: var soma_ponderada = 0
+5: para cada elemento da lista faça:
+5.1: soma_pesos = soma_pesos + peso_correspondente
+5.2: soma_ponderada = soma_ponderada + (elemento * peso_correspondente)
+6: se soma_pesos for diferente de 0 então
+6.1: media_ponderada = soma_ponderada / soma_pesos
+6.2: escreva "A média ponderada é:", media_ponderada
+6.3: senão
+6.3.1: escreva "Não foi possível calcular a média ponderada (divisão por zero)"
+7: fim
+
+
+
+
+
+
+
